@@ -1,6 +1,6 @@
 # ClassCheck
 
-Sistema web de gestión académica con PHP y MySQL. Este repositorio conserva el producto ClassCheck y organiza sus archivos con una estructura de proyecto sencilla: documentación en `docs/` y aplicación en `src/`.
+Sistema ClassCheck. La carpeta `src/` se retiró temporalmente por solicitud del propietario; el colaborador agregará allí los archivos de la aplicación. La organización del repositorio mantiene la documentación en `docs/`.
 
 ## Estructura
 
@@ -10,18 +10,12 @@ Sistema web de gestión académica con PHP y MySQL. Este repositorio conserva el
 ├── design/                         # Recursos y decisiones de diseño
 ├── docs/
 │   └── class_Check_final_impresion_arreglada.xlsx
-└── src/
-    ├── administrador/              # Gestión administrativa
-    ├── alumno/                     # Vistas del alumno
-    ├── assets/                     # CSS y JavaScript
-    ├── config/                     # Conexión y seguridad
-    ├── database/                   # Esquema SQL
-    ├── docente/                    # Vistas del docente
-    ├── includes/                   # Componentes comunes
-    └── *.php                       # Entrada, login y registro
+└── src/                            # Pendiente: el colaborador agregará el código
 ```
 
 ## Requisitos e instalación local
+
+La aplicación aún no está incluida en este repositorio. Las instrucciones de instalación siguientes describen los requisitos previstos y serán aplicables cuando el colaborador agregue los archivos en `src/`.
 
 - XAMPP para macOS, Windows o Linux con Apache, PHP y MySQL/MariaDB.
 - PHP 8.1 o superior recomendado y PDO MySQL habilitado.

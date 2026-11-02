@@ -9,7 +9,7 @@ Sistema web de gestión académica con PHP y MySQL. Este repositorio conserva el
 ├── README.md
 ├── design/                         # Recursos y decisiones de diseño
 ├── docs/
-│   └── ClassCheck-requisitos-y-planificacion.xlsx
+│   └── class_Check_final_impresion_arreglada.xlsx
 └── src/
     ├── administrador/              # Gestión administrativa
     ├── alumno/                     # Vistas del alumno
@@ -49,4 +49,4 @@ No es aún una implementación académica completa para producción: los formula
 - No uses datos personales reales hasta completar las funciones pendientes y realizar pruebas.
 - El esquema SQL elimina las tablas de `classcheck` al importarse: úsalo solo en una base nueva o respalda los datos antes.
 
-Consulta el libro de requisitos y planificación en `docs/ClassCheck-requisitos-y-planificacion.xlsx`.
+Consulta el libro de requisitos y planificación en `docs/class_Check_final_impresion_arreglada.xlsx`.
